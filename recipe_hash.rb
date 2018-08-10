@@ -19,8 +19,9 @@ perfect_10_recipe = {
 }
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
-  
+  puts perfect_10_recipe[mini_dark_choclate_chips]
 end
+perfect_10_recipe
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
